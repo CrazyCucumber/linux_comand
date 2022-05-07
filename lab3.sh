@@ -59,7 +59,7 @@ setfacl -m u:floopy:r ~/shared/doc1.txt
 cat ~/shared/doc1.txt
 
 # Создание общей папки
-setfacl -m u:b16v7412:rw ~/shared
+setfacl -m u:floopy:rw ~/shared
 
 # Перезапись файла текста в файл
 echo "This text is created by user1" > ~/shared/file1.txt
