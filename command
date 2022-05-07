@@ -29,16 +29,25 @@ which bash
 # Вывод всех команд, которые были введены выше
 history
 
-
+# Определеить имя пользователя 
 uname
+
+# Определение пользователей, работающих с системой в данный момент
 which arch
 ls -l /usr/bin/arch
 hostname
-w
+
+# Определение трех последних
 last -n 3
+
+# Определение в каких группах состоит наш пользователь
 groups floopy
+
+# Открытие файла passwd, используя команду more /etc/passwd и использование спрвки по файлу
 more /etc/passwd
 man 5 passwd
+
+
 finger
 sudo apt install finger
 finger
